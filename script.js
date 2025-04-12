@@ -24,3 +24,14 @@ function onSpeak(event) {
 
 // Listen to and handle the speech event
 recognition.addEventListener("result", onSpeak);
+
+// See in the DOM what the user has spoken
+function writeMessage(msg) {
+  const div = document.createElement("div");
+  div.textContent = "You said: ";
+  const span = document.createElement("span");
+  span.classList.add("box");
+  span.textContent = msg;
+
+  msgEl.append(div, span);
+}
