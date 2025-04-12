@@ -23,17 +23,17 @@ h3 {
 }
 
 p {
-    line-height: 1.5;
-    margin: 0;
+  line-height: 1.5;
+  margin: 0;
 }
 
 .play-again {
-    padding: 8px 15px;
-    border: 0;
-    background-color: #f4f4f4;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
+  padding: 8px 15px;
+  border: 0;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin-top: 10px;
+}
 
 .msg {
   font-size: 1.5em;
